@@ -1,0 +1,26 @@
+{
+    "name": "kosa3/migration-stub-extention",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kosa3",
+            "email": "suga.tech3@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "laravel/framework": "^5.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kosa3\\MigrationStubExtention\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kosa3\\MigrationStubExtention\\MigrationServiceProvider"
+            ]
+        }
+    }
+}
