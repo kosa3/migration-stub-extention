@@ -5,7 +5,7 @@
 Require this package with composer using the following command:
 
 ```bash
-composer require --dev kosa3/migrationStubExtention:dev-master
+composer require --dev kosa3/migration-stub-extention:dev-master
 
 ```
 
