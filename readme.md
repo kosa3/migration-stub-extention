@@ -5,8 +5,9 @@
 Require this package with composer using the following command:
 
 ```bash
-composer require --dev kosa3/migrationStubExtention
+composer require --dev kosa3/migrationStubExtention:dev-master
 ```
+
 After updating composer, add the migration directory to the `resources` stubs `blank.stub` `create.stub` `update.stub`
 
 You can customize the stub file freely.
